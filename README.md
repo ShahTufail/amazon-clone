@@ -2,8 +2,9 @@
 
 
 # tech Stacks
-React /n
-Firebase for Hosting \n
-Firestore for realtime DB
-Material UI for Icons
-Stripe for Payment Processing
+# React UI (Class and Functional Component, Context API for state management)
+# Firebase for Hosting <br>
+# Firestore for realtime DB<br>
+# Material UI for Icons<br>
+# Stripe for Payment Processing<br>
+# 
