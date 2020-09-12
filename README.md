@@ -1,6 +1,6 @@
 # Building a Amazon clone
 
-# Tech Stacks 📃 📎
+# Tech Stacks 📃 📎 ⭐
 
 # React UI 🚀(Class and Functional Component, Context API for state management)
 
