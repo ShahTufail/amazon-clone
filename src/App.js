@@ -16,10 +16,8 @@ function App() {
 
     auth.onAuthStateChanged((authUser) => {
       console.log("THE USER IS >>> ", authUser);
-
       if (authUser) {
         // the user just logged in / the user was logged in
-
         dispatch({
           type: "SET_USER",
           user: authUser,
@@ -32,7 +30,7 @@ function App() {
         });
       }
     });
-  }, []);
+  }, []); // here if we give some value then useEffect will be triggered onchange of that value
 
   return (
     // BEM
