@@ -16,19 +16,24 @@ function App() {
 
     auth.onAuthStateChanged((authUser) => {
       console.log("THE USER IS >>> ", authUser);
-      if (authUser) {
-        // the user just logged in / the user was logged in
-        dispatch({
-          type: "SET_USER",
-          user: authUser,
-        });
-      } else {
-        // the user is logged out
-        dispatch({
-          type: "SET_USER",
-          user: null,
-        });
-      }
+      const user = authUser ? authUser : null; // authUser is when user logs in
+      dispatch({
+        type: "SET_USER",
+        user,
+      });
+      // if (authUser) {
+      //   // the user logged in...
+      //   dispatch({
+      //     type: "SET_USER",
+      //     user: authUser,
+      //   });
+      // } else {
+      //   // the user logged out
+      //   dispatch({
+      //     type: "SET_USER",
+      //     user: null,
+      //   });
+      // }
     });
   }, []); // here if we give some value then useEffect will be triggered onchange of that value
 
