@@ -30,7 +30,8 @@ function Header() {
       </div>
 
       <div className="header__nav">
-        <Link to={!user && "/login"}>
+        // <Link to={!user && "/login"}> // Wont allow to go to Login page on logout
+          <Link to={"/login"}>
           <div onClick={handleAuthenticaton} className="header__option">
             <span className="header__optionLineOne">Hello {user?.email}</span>
             <span className="header__optionLineTwo">
