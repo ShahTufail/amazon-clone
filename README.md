@@ -1,15 +1,15 @@
 # Building a Amazon clone
 
-# Tech Stacks
+# Tech Stacks 📃 📎
 
-# React UI (Class and Functional Component, Context API for state management)
+# React UI 🚀(Class and Functional Component, Context API for state management)
 
-# Firebase for Hosting <br>
+# Firebase for Hosting 🏡 <br>
 
-# Firestore for realtime DB <br>
+# Firestore for realtime DB 📦<br>
 
-# Material UI for Icons <br>
+# Material UI for Icons 🚁:helicopter: <br>
 
-# Stripe for Payment Processing <br>
+# Stripe for Payment Processing 💰 <br>
 
-# CSS styling
+# CSS styling 🎩
