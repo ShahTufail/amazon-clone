@@ -7,7 +7,7 @@ import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
 
 function Payment() {
   const [{ basket, user }, dispatch] = useStateValue();
-  const stripe = useStripe();
+  const stripe = useStripe(); //  npm i @stripe/react-stripe-js & npm i @stripe/stripe-js
   const elements = useElements();
   const [error, setError] = useState(null);
   const [disabled, setDisabled] = useState(true);
