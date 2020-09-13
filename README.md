@@ -1,4 +1,4 @@
-# Building a Amazon clone
+# Building Amazon clone
 
 # Tech Stacks 📃 📎 ⭐
 
@@ -6,9 +6,9 @@
 
 # Firebase for Hosting 🏡 <br>
 
-# Firestore for realtime DB 📦<br>
+# Firestore for realtime DB 📦<br> // 
 
-# Material UI for Icons 🚁:helicopter: <br>
+# Material UI for Icons 🚁 <br>
 
 # Stripe for Payment Processing 💰 <br>
 
