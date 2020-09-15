@@ -22,7 +22,7 @@ function App() {
 
     auth.onAuthStateChanged((authUser) => {
       console.log("THE USER IS >>> ", authUser);
-      const user = authUser ? authUser : null; // authUser is when user logs in
+      const user = authUser ? authUser : null; // authUser is undefined when no user is logged in and has value when user logs in
       dispatch({
         type: "SET_USER",
         user,
@@ -41,7 +41,7 @@ function App() {
       //   });
       // }
     });
-  }, []); // here if we give some value then useEffect will be triggered onchange of that value
+  }, []); // here if we give some value inside the array then useEffect will also be triggered onchange of that value
 
   return (
     // BEM
