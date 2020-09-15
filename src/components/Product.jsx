@@ -7,12 +7,13 @@ function Product({ id, title, image, price, rating }) {
 
   const addToBasket = () => {
     // dispatch the item into the data layer
+    // New in JavaScript with ES6/ES2015, if you want to define an object who's keys have the same name as the variables passed-in as properties, you can use the shorthand and simply pass the key name.
     dispatch({
       type: "ADD_TO_BASKET",
       item: {
-        id: id,
+        id, // Object Property Value Shorthand in JavaScript with ES6
         title: title,
-        image: image,
+        image,
         price: price,
         rating: rating,
       },
