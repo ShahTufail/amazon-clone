@@ -9,7 +9,7 @@
 .home__row {
   display: flex;
   z-index: 1;
-  margin: 0 5px; /* firrst marginLeft: 5px marginRight:5px*/
+  margin: 0 5px; /* marginLeft: 5px marginRight:5px*/
   /* margin: top right bottm left */
 }
 
