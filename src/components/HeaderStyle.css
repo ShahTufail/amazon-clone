@@ -48,7 +48,7 @@
   display: flex;
   align-items: center;
   color: white;
-  object-fit: contain;
+  /* object-fit: contain; */
 }
 
 .header__basketCount {
