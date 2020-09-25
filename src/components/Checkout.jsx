@@ -17,7 +17,7 @@ function Checkout() {
         />
 
         <div>
-          <h3>Welcome, {user?.email}</h3>
+          <h3>Welco, {user?.email}</h3>
           <h2 className="checkout__title">Your shopping Basket</h2>
 
           {basket.map((item) => (
